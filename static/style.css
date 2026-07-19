@@ -1,0 +1,190 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:#e9eef4;
+    font-family:"Vazirmatn",sans-serif;
+
+    margin:0;
+
+    min-height:100vh;
+
+    display:flex;
+    justify-content:center;
+
+    align-items:center;
+
+    padding:30px 15px;
+    flex-direction: column;
+}
+
+.card{
+
+width:90%;
+
+max-width:400px;
+
+background:white;
+
+padding:40px;
+
+border-radius:20px;
+
+text-align:center;
+
+box-shadow:0 10px 30px rgba(0,0,0,.15);
+
+}
+
+h1{
+
+    color:#ff2d55;
+
+
+
+    margin-bottom:20px;
+    font-size: 40;
+
+}
+
+p{
+
+    color:#555;
+
+    margin-bottom:25px;
+
+}
+
+h2{
+
+    margin-bottom:30px;
+
+}
+
+.b{
+
+    font-family: "Vazirmatn", sans-serif;
+    background:#ff2d55;
+
+    color:white;
+
+    border:none;
+
+    padding:15px 40px;
+
+    border-radius:12px;
+
+    font-size:20px;
+
+    cursor:pointer;
+
+    transition:.3s;
+    text-decoration: none;
+
+}
+
+.b:hover{
+
+    background:#e6003d;
+
+    transform:scale(1.05);
+
+}
+
+.bb{
+
+    font-family: "Vazirmatn", sans-serif;
+    background:#ffbf49;
+
+    color:white;
+
+    border:none;
+
+    padding:15px 40px;
+
+    border-radius:12px;
+
+    font-size:20px;
+
+    cursor:pointer;
+
+    transition:.3s;
+    text-decoration: none;
+
+}
+
+.bb:hover{
+
+    background:#ffaf1c;
+
+    transform:scale(1.05);
+
+}
+
+@keyframes blink {
+
+    0%{
+        transform: scale(1);
+        opacity:1;
+    }
+
+    50%{
+        transform: scale(1.08);
+        opacity:.6;
+    }
+
+    100%{
+        transform: scale(1);
+        opacity:1;
+    }
+
+}
+.pulse{
+    animation: blink 1s ease;
+    
+}
+
+.miniicon{
+    border-radius:12px;
+    width: 30px;
+    margin: 4px;
+}
+
+img{
+    
+    border-radius:12px;
+    width: 300px;
+    
+
+
+}
+
+img:hover{
+    transition: all 0.3s ease-in-out;
+    transform: scale(1.2);
+
+
+    
+}
+
+
+
+.coin{
+    background-color: #eadfce;
+    display: inline-flex;
+    align-items:center;
+    gap:40px;
+    border-radius: 10px;
+    margin-bottom: 7px;
+}
+
+.tbutton{
+    background-color: rgba(168, 168, 168, 0); border: none;
+}
+
+.tbutton:focus{
+    outline: red;
+}
