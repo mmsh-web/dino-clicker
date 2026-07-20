@@ -22,10 +22,10 @@ if (coins==null){
 }
 coinsp.innerHTML=coins
 console.log(data)
-dinop.src=`/static/${data["color"]}.png`
+dinop.src=`static/${data["color"]}.png`
 dino.addEventListener("click",function(){
     coins++
     localStorage.setItem("coin",coins)
     coinsp.innerHTML=coins
 })
-dino.src="/static/blue.png"
+
