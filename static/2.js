@@ -59,10 +59,11 @@ blue.addEventListener("click",function(){
                 load()
                 save()
             }
-            else{
-                alert("Your dinos it not enough")
-            }
+
         }
+        else{
+            alert("Your dinos it not enough")
+        } 
     }
 })
 
@@ -82,9 +83,10 @@ pink.addEventListener("click",function(){
                 load()
                 save()
             }
-            else{
-                alert("Your dinos it not enough")
-            }
+
+        }
+        else{
+            alert("Your dinos it not enough")
         }
     }
 })
@@ -105,9 +107,10 @@ pink.addEventListener("click",function(){
                 load()
                 save()
             }
-            else{
-                alert("Your dinos it not enough")
-            }
+
+        }
+        else{
+            alert("Your dinos it not enough")
         }
     }
 })
